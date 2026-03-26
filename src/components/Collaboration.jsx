@@ -10,9 +10,9 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seemless
+            Where Engineering Meets{" "}
             <span className="inline-block relative font-semibold">
-              collaboration
+              Economics
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -22,6 +22,9 @@ const Collaboration = () => {
               />
             </span>
           </h2>
+          <p className="body-2 text-n-4 mb-4">
+            Track every hour. Understand every dollar.
+          </p>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (

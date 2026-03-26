@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
-import Typewriter from "typewriter-effect";
 
 import { curve, heroBackground, robot } from "../assets";
 import { heroIcons } from "../constants";
@@ -25,28 +24,11 @@ const Hero = () => {
       <div ref={parallaxRef} className="container relative">
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of
+            Stop Managing Projects.
             <br />
-            <Typewriter
-              options={{
-                strings: [
-                  "AI Chatting",
-                  "Photo Editing",
-                  "Video Generation",
-                  "Image Generation",
-                  "Code Generation",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h1>
-
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleast the power of AI within Brainwave. Upgrade your productivity
-            with{" "}
+            Start Orchestrating{" "}
             <span className="inline-block relative font-semibold">
-              Brainwave
+              Engineering.
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -55,12 +37,23 @@ const Hero = () => {
                 alt="Curve"
               />
             </span>
-            , the open AI chat app.
+          </h1>
+
+          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+            D360 Flux unifies sprint planning, execution, QA, analytics, and AI-driven insights into one seamless workspace built for modern engineering teams.
+            <br />
+            <br />
+            Replace Jira. Replace Confluence. Replace scattered tools. One platform. Total clarity. Zero chaos.
           </p>
 
-          <Button href="#pricing" white>
-            Get started
-          </Button>
+          <div className="flex justify-center gap-4">
+            <Button href="#how-to-use" white>
+              Start Building Smarter
+            </Button>
+            <Button href="#features">
+              See It In Action
+            </Button>
+          </div>
         </div>
 
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -77,7 +70,7 @@ const Hero = () => {
                   alt="AI"
                 />
 
-                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
+                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" text="Voice input waveform | AI insights active" />
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
@@ -92,7 +85,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="Budget overrun alert"
                   />
                 </ScrollParallax>
               </div>

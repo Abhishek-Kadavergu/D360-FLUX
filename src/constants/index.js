@@ -51,12 +51,12 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "AI Platform",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Analytics",
     url: "#roadmap",
   },
   {
@@ -75,9 +75,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Story Generator",
+  "Test Case Builder",
+  "Smart Estimator",
 ];
 
 export const brainwaveServicesIcons = [
@@ -91,55 +91,59 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Sprint velocity",
+    text: "Real-time tracking of team output and velocity across all active sprints.",
+    date: "Current",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Capacity tracking",
+    text: "Visualize team workload and availability to prevent burnout and optimize effort.",
+    date: "Current",
+    status: "done",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Risk alerts",
+    text: "AI-driven predictions that flag potential delays and blockers before they happen.",
+    date: "Current",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    title: "Cross-project insights",
+    text: "Unified view of health metrics spanning multiple engineering projects.",
+    date: "Current",
+    status: "done",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "No spreadsheets. No blind spots. Just clarity.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Billable vs non-billable tracking",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Budget overruns flagged instantly",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Real-time cost analysis",
+  },
+  {
+    id: "3",
+    title: "Team utilization insights",
   },
 ];
 
@@ -205,37 +209,37 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Starter",
+    description: "For small teams getting started",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Core project management and tracking",
+      "Basic sprint planning and agile boards",
+      "Community support and documentation",
     ],
     premium: false,
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Growth",
+    description: "For scaling engineering teams",
+    price: "49",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "AI-powered story and test generation",
+      "Advanced analytics and custom dashboards",
+      "Financial tracking and billing intelligence",
     ],
     premium: true,
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "For high-performance organizations",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Dedicated AI engineering intelligence",
+      "Custom voice-first workflows",
+      "Priority enterprise support and SLA",
     ],
     premium: false,
   },
@@ -244,16 +248,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Agile Without Friction",
+    text: "Run sprints, retrospectives, and planning poker natively — no plugins, no hacks.",
     backgroundUrl: "/src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Financial Intelligence Built-In",
+    text: "Track cost, effort, and margins in real-time — where engineering meets business.",
     backgroundUrl: "/src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +265,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "AI That Understands Your Project",
+    text: "Not a chatbot. A system that knows your sprint, velocity, blockers, and risks.",
     backgroundUrl: "/src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Voice-First Workflows",
+    text: "Create tasks, generate reports, and analyze sprints — just by speaking.",
     backgroundUrl: "/src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +282,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Real-Time Project Intelligence",
+    text: "Dashboards that show what matters — instantly.",
     backgroundUrl: "/src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Unified Workspace",
+    text: "Docs, tasks, QA, analytics — all in one system.",
     backgroundUrl: "/src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
