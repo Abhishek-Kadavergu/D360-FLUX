@@ -55,6 +55,7 @@ brainwave/
       |--- Button.jsx
       |--- Collaboration.jsx
       |--- CompanyLogos.jsx
+      |--- Cta.jsx
       |--- Footer.jsx
       |--- Generating.jsx
       |--- Header.jsx
