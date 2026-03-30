@@ -9,7 +9,7 @@ const Button = ({
   white,
   external,
 }) => {
-  const classes = `button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 ${
+  const classes = `button relative inline-flex items-center justify-center min-h-[2.5rem] h-10 sm:h-10 md:min-h-[2.75rem] md:h-11 transition-colors hover:text-color-1 ${
     px || "px-7"
   } ${white ? "text-n-8" : "text-n-1"} ${className || ""}`;
 

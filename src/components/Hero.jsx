@@ -15,15 +15,15 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[9rem] sm:pt-[10rem] md:pt-[11rem] lg:pt-[12rem] -mt-[5.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
       id="hero"
     >
       <div ref={parallaxRef} className="container relative">
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
-          <h1 className="h1 mb-6">
+        <div className="relative z-1 max-w-[56rem] xl:max-w-[62rem] mx-auto text-center mb-10 md:mb-14 lg:mb-16 xl:mb-[6rem]">
+          <h1 className="h1 mb-4 md:mb-6">
             Stop Managing Projects.
             <br />
             Start Orchestrating{" "}
@@ -39,24 +39,25 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            D360 Flux unifies sprint planning, execution, QA, analytics, and AI-driven insights into one seamless workspace built for modern engineering teams.
+          <p className="body-1 max-w-2xl md:max-w-3xl mx-auto mb-5 md:mb-6 text-n-2 lg:mb-7">
+            D360 Flux unifies sprint planning, execution, QA, analytics, and
+            AI-driven insights into one seamless workspace built for modern
+            engineering teams.
             <br />
             <br />
-            Replace Jira. Replace Confluence. Replace scattered tools. One platform. Total clarity. Zero chaos.
+            Replace Jira. Replace Confluence. Replace scattered tools. One
+            platform. Total clarity. Zero chaos.
           </p>
 
-          <div className="flex justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-3 md:gap-4">
             <Button href="#how-to-use" white>
               Start Building Smarter
             </Button>
-            <Button href="#features">
-              See It In Action
-            </Button>
+            <Button href="#features">See It In Action</Button>
           </div>
         </div>
 
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+        <div className="relative max-w-[20rem] mx-auto sm:max-w-[22rem] md:max-w-5xl lg:mb-16 xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
@@ -70,7 +71,7 @@ const Hero = () => {
                   alt="AI"
                 />
 
-                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" text="Voice input waveform | AI insights active" />
+                {/* <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" text="Voice input waveform | AI insights active" /> */}
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
@@ -104,10 +105,10 @@ const Hero = () => {
             />
           </div>
 
-          <BackgroundCircles />
+          <BackgroundCircles parallaxRef={parallaxRef} />
         </div>
 
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        {/* <CompanyLogos className="hidden relative z-10 mt-12 md:mt-16 lg:mt-20 lg:block" /> */}
       </div>
 
       <BottomLine />

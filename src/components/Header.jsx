@@ -37,15 +37,17 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8 flex items-center gap-3" href="#hero">
+        <a className="block w-[10.5rem] sm:w-[12rem] xl:mr-8 flex items-center gap-2 sm:gap-3" href="#hero">
           <img
             src={brainwaveSymbol}
-            width={40}
-            height={40}
+            width={36}
+            height={36}
             alt="D360 Flux"
             className="pointer-events-none select-none"
           />
-          <span className="h4 font-bold font-code tracking-widest uppercase text-n-1">D360 Flux</span>
+          <span className="text-sm sm:text-base font-bold font-code tracking-widest uppercase text-n-1">
+            D360 Flux
+          </span>
         </a>
 
         <nav

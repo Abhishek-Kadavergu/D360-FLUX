@@ -88,35 +88,39 @@ export default {
       addBase({});
       addComponents({
         ".container": {
-          "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
+          "@apply max-w-[72rem] mx-auto px-4 sm:px-5 md:px-8 lg:px-12 xl:max-w-[80rem] xl:px-15":
             {},
         },
         ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply font-semibold text-[2rem] leading-[2.5rem] sm:text-[2.25rem] sm:leading-[2.875rem] md:text-[2.5rem] md:leading-[3.25rem] lg:text-[2.875rem] lg:leading-[3.5rem] xl:text-[3.25rem] xl:leading-[3.875rem] 2xl:text-[3.5rem] 2xl:leading-[4.25rem]":
             {},
         },
         ".h2": {
-          "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
+          "@apply text-[1.5rem] leading-[2rem] sm:text-[1.625rem] sm:leading-[2.25rem] md:text-[1.875rem] md:leading-[2.375rem] lg:text-[2.125rem] lg:leading-[3rem] xl:text-[2.5rem] xl:leading-[3.25rem] 2xl:text-[2.75rem] 2xl:leading-tight":
             {},
         },
         ".h3": {
-          "@apply text-[2rem] leading-normal md:text-[2.5rem]": {},
+          "@apply text-[1.625rem] leading-snug md:text-[1.875rem] md:leading-normal lg:text-[2.125rem] xl:text-[2.25rem]":
+            {},
         },
         ".h4": {
-          "@apply text-[2rem] leading-normal": {},
+          "@apply text-[1.25rem] leading-snug md:text-[1.5rem] lg:text-[1.625rem] xl:text-[1.75rem]":
+            {},
         },
         ".h5": {
-          "@apply text-2xl leading-normal": {},
+          "@apply text-lg leading-snug sm:text-xl md:text-xl lg:text-2xl lg:leading-normal":
+            {},
         },
         ".h6": {
           "@apply font-semibold text-lg leading-8": {},
         },
         ".body-1": {
-          "@apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
+          "@apply text-[0.8125rem] leading-[1.4rem] sm:text-[0.875rem] sm:leading-[1.5rem] md:text-[0.9375rem] md:leading-[1.625rem] lg:text-[1rem] lg:leading-[1.75rem] xl:text-[1.0625rem] xl:leading-7":
             {},
         },
         ".body-2": {
-          "@apply font-light text-[0.875rem] leading-6 md:text-base": {},
+          "@apply font-light text-[0.8125rem] leading-[1.375rem] sm:text-[0.875rem] sm:leading-6 md:text-[0.9375rem] lg:text-base":
+            {},
         },
         ".caption": {
           "@apply text-sm": {},

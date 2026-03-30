@@ -39,7 +39,7 @@ const Services = () => {
 
         <div className="relative">
           {/* Service 1 */}
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex items-center min-h-[28rem] h-[32rem] sm:h-[34rem] mb-5 p-6 sm:p-8 border border-n-1/10 rounded-3xl overflow-hidden md:h-[38rem] lg:p-14 lg:h-[40rem] xl:h-[44rem] 2xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none select-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -79,7 +79,7 @@ const Services = () => {
 
           {/* Service 2 & 3 */}
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div className="relative min-h-[28rem] sm:min-h-[32rem] md:min-h-[36rem] lg:min-h-[38rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
                   src={service2}
@@ -100,8 +100,8 @@ const Services = () => {
               <PhotoChatMessage />
             </div>
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
-              <div className="py-12 px-4 xl:px-8">
+            <div className="p-3 sm:p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[38rem] xl:min-h-[42rem] 2xl:min-h-[46rem]">
+              <div className="py-8 sm:py-10 lg:py-12 px-3 sm:px-4 xl:px-8">
                 <h4 className="h4 mb-4">Code Reviewer & Quality Insights</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   Instantly analyze code quality, detect Sprint Health, and access Retro Analyst insights.
@@ -136,7 +136,7 @@ const Services = () => {
                 </ul>
               </div>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+              <div className="relative h-[16rem] sm:h-[18rem] bg-n-8 rounded-xl overflow-hidden md:h-[22rem] lg:h-[25rem]">
                 <img
                   src={service3}
                   className={`w-full h-full object-cover ${
