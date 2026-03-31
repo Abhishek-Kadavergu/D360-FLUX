@@ -58,6 +58,7 @@ brainwave/
       |--- Cta.jsx
       |--- Footer.jsx
       |--- Generating.jsx
+      |--- GetStarted.jsx
       |--- Header.jsx
       |--- Heading.jsx
       |--- Hero.jsx
