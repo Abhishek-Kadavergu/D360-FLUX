@@ -45,11 +45,6 @@ export const navigation = [
     url: "#features",
   },
   {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
-  {
     id: "2",
     title: "AI Platform",
     url: "#how-to-use",
@@ -124,8 +119,7 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
-  "No spreadsheets. No blind spots. Just clarity.";
+export const collabText = "No spreadsheets. No blind spots. Just clarity.";
 
 export const collabContent = [
   {
