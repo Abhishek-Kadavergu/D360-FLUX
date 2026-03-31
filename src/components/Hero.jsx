@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import { ScrollParallax } from "react-just-parallax";
 
 import { curve, heroBackground, robot } from "../assets";
@@ -50,9 +51,9 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-3 md:gap-4">
-            <Button href="#how-to-use" white>
-              Start Building Smarter
-            </Button>
+            <Link to="/get-started">
+              <Button white>Start Building Smarter</Button>
+            </Link>
             <Button href="#features">See It In Action</Button>
           </div>
         </div>

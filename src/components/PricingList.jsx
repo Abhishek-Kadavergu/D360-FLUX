@@ -1,6 +1,7 @@
 import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const PricingList = () => {
   return (
@@ -26,13 +27,14 @@ const PricingList = () => {
             )}
           </div>
 
-          <Button
-            className="w-full mb-6"
-            href={plan.price ? "#" : "mailto:info@example.com"}
-            white={!plan.premium}
-          >
-            {plan.price ? "Get started" : "Contact us"}
-          </Button>
+          <Link to="/get-started" className="w-full mb-6">
+            <Button
+              className="w-full"
+              white={!plan.premium}
+            >
+              {plan.price ? "Get started" : "Contact us"}
+            </Button>
+          </Link>
 
           <ul>
             {plan.features.map((feature, j) => (
