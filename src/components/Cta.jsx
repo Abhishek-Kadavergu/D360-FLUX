@@ -12,9 +12,9 @@ const Cta = () => {
           D360 Flux brings everything together — so your team can move faster,
           smarter, and with confidence.
         </p>
-        <Button href="#pricing" white>
+        {/* <Button href="#pricing" white>
           Start Your Engineering Evolution
-        </Button>
+        </Button> */}
       </div>
     </Section>
   );
