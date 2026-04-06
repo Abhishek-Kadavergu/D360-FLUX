@@ -54,7 +54,7 @@ const Hero = () => {
             <Link to="/get-started">
               <Button white>Start Building Smarter</Button>
             </Link>
-            <Button href="#features">See It In Action</Button>
+            {/* <Button href="#features">See It In Action</Button> */}
           </div>
         </div>
 

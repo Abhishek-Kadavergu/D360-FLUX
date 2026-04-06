@@ -24,6 +24,15 @@ const App = () => {
             <Services />
             <Pricing />
             <Roadmap />
+            {/* POWERED BY Section */}
+            <div className="flex flex-col items-center justify-center py-20">
+              <p className="text-base md:text-xl font-bold tracking-[0.25em] text-n-3 uppercase mb-8">
+                POWERED BY
+              </p>
+              <a href="https://piazza-website-beta.vercel.app/" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-110">
+                <img src="/piazza-logo-bg.png" alt="Piazza Consulting Group" className="h-20 md:h-32 lg:h-40 object-contain drop-shadow-2xl" />
+              </a>
+            </div>
             <Cta />
             <Footer />
           </div>
